@@ -20,6 +20,8 @@ public class WxMaVodListMediaRequest implements Serializable {
   private Integer dramaId;
   @SerializedName("media_name")
   private String mediaName;
+  @SerializedName("media_name_fuzzy")
+  private String mediaNameFuzzy;
 
   @SerializedName("start_time")
   private Long startTime;
